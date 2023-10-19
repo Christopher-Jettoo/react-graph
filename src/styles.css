@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: -webkit-center;
+}
+
+.artifactsIcon {
+  width: 12px;
+  height: 12px;
+}
+
+.nodeCard {
+  min-width: 300px;
+  max-width: fit-content;
+  position: fixed;
+  background-color: #252b30 !important;
+  color: #d3d3d3 !important;
+  z-index: 1;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.entityInNode {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.entityInNode:hover {
+  color: deepskyblue;
+}
+
+.hoverItem:hover copyToClipboard {
+  opacity: 1;
+}
+
+.titleDate {
+  margin-left: 8px;
+  font-size: 0.857142857rem;
+  color: #757575;
+}
+
+.tacticTechnic {
+  font-size: 0.857142857rem;
+}
